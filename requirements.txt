@@ -1,0 +1,6 @@
+# Solo lo necesario para scripts/perfilar_datos.py
+# Instalar con:  pip install -r requirements.txt
+# Fija versiones en tu proyecto real (ej. pandas==2.2.2) para que sea reproducible.
+pandas
+openpyxl      # solo si lees archivos .xlsx
+pyarrow       # solo si lees archivos .parquet

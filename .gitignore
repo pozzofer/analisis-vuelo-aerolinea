@@ -1,0 +1,39 @@
+# ── Secretos y credenciales (NUNCA se suben) ──
+.env
+*.key
+*.pem
+credenciales*
+secrets*
+
+# ── Datos sensibles ──
+# Si tus datos son personales, confidenciales o pesados, descomenta estas líneas
+# y documenta en el README cómo obtenerlos:
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# ── Python / notebooks ──
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ── Power BI (versiona el formato .pbip, no el .pbix binario) ──
+*.pbix
+.pbi/
+**/.pbi/
+cache.abf
+localSettings.json
+
+# ── Excel y Office: temporales ──
+~$*
+*.tmp
+
+# ── Sistema operativo y editores ──
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
